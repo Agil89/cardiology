@@ -1,0 +1,273 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?92c18bb4a83ca25255a20027c5427312") format("truetype"),
+url("./flaticon.woff?92c18bb4a83ca25255a20027c5427312") format("woff"),
+url("./flaticon.woff2?92c18bb4a83ca25255a20027c5427312") format("woff2"),
+url("./flaticon.eot?92c18bb4a83ca25255a20027c5427312#iefix") format("embedded-opentype"),
+url("./flaticon.svg?92c18bb4a83ca25255a20027c5427312#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cardiovascular": "\f101",
+    "map": "\f102",
+    "heart-beat": "\f103",
+    "send": "\f104",
+    "first-aid-kit": "\f105",
+    "heart": "\f106",
+    "support": "\f107",
+    "cardiology": "\f108",
+    "healthcare": "\f109",
+    "cardiogram": "\f10a",
+    "call": "\f10b",
+    "shopping-cart": "\f10c",
+    "search": "\f10d",
+    "exit": "\f10e",
+    "microsurgery": "\f10f",
+    "phone-call": "\f110",
+    "email": "\f111",
+    "clock": "\f112",
+    "share": "\f113",
+    "chat": "\f114",
+    "pdf": "\f115",
+    "arrow-down": "\f116",
+    "straight-quotes": "\f117",
+    "veterinarian": "\f118",
+    "hospital": "\f119",
+    "heart-disease": "\f11a",
+    "cardiology-2": "\f11b",
+    "diagnosis": "\f11c",
+    "arrow-pointing-to-right": "\f11d",
+    "map-1": "\f11e",
+    "heart-1": "\f11f",
+    "heart-2": "\f120",
+    "organ-transplantation": "\f121",
+    "heart-attack": "\f122",
+    "heart-3": "\f123",
+    "vaccine": "\f124",
+    "heart-4": "\f125",
+    "heart-5": "\f126",
+    "cardiologist": "\f127",
+    "health-care": "\f128",
+    "heart-6": "\f129",
+    "defribillator": "\f12a",
+    "heart-7": "\f12b",
+    "emergency-call": "\f12c",
+    "awards": "\f12d",
+    "ecg-reading": "\f12e",
+    "patient": "\f12f",
+    "patient-1": "\f130",
+    "medical-insurance": "\f131",
+    "search-1": "\f132",
+    "placeholder": "\f133",
+    "healthcare-2": "\f134",
+    "file": "\f135",
+    "tick-mark": "\f136",
+    "doctor": "\f137",
+    "doctor-1": "\f138",
+    "right-arrow": "\f139",
+    "share-1": "\f13a",
+    "left-quote": "\f13b",
+    "comment": "\f13c",
+    "phone-call-1": "\f13d",
+    "bubble-chat": "\f13e",
+);
+
+.flaticon-cardiovascular:before {
+    content: map-get($flaticon-map, "cardiovascular");
+}
+.flaticon-map:before {
+    content: map-get($flaticon-map, "map");
+}
+.flaticon-heart-beat:before {
+    content: map-get($flaticon-map, "heart-beat");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-first-aid-kit:before {
+    content: map-get($flaticon-map, "first-aid-kit");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-cardiology:before {
+    content: map-get($flaticon-map, "cardiology");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon-map, "healthcare");
+}
+.flaticon-cardiogram:before {
+    content: map-get($flaticon-map, "cardiogram");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-exit:before {
+    content: map-get($flaticon-map, "exit");
+}
+.flaticon-microsurgery:before {
+    content: map-get($flaticon-map, "microsurgery");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-pdf:before {
+    content: map-get($flaticon-map, "pdf");
+}
+.flaticon-arrow-down:before {
+    content: map-get($flaticon-map, "arrow-down");
+}
+.flaticon-straight-quotes:before {
+    content: map-get($flaticon-map, "straight-quotes");
+}
+.flaticon-veterinarian:before {
+    content: map-get($flaticon-map, "veterinarian");
+}
+.flaticon-hospital:before {
+    content: map-get($flaticon-map, "hospital");
+}
+.flaticon-heart-disease:before {
+    content: map-get($flaticon-map, "heart-disease");
+}
+.flaticon-cardiology-2:before {
+    content: map-get($flaticon-map, "cardiology-2");
+}
+.flaticon-diagnosis:before {
+    content: map-get($flaticon-map, "diagnosis");
+}
+.flaticon-arrow-pointing-to-right:before {
+    content: map-get($flaticon-map, "arrow-pointing-to-right");
+}
+.flaticon-map-1:before {
+    content: map-get($flaticon-map, "map-1");
+}
+.flaticon-heart-1:before {
+    content: map-get($flaticon-map, "heart-1");
+}
+.flaticon-heart-2:before {
+    content: map-get($flaticon-map, "heart-2");
+}
+.flaticon-organ-transplantation:before {
+    content: map-get($flaticon-map, "organ-transplantation");
+}
+.flaticon-heart-attack:before {
+    content: map-get($flaticon-map, "heart-attack");
+}
+.flaticon-heart-3:before {
+    content: map-get($flaticon-map, "heart-3");
+}
+.flaticon-vaccine:before {
+    content: map-get($flaticon-map, "vaccine");
+}
+.flaticon-heart-4:before {
+    content: map-get($flaticon-map, "heart-4");
+}
+.flaticon-heart-5:before {
+    content: map-get($flaticon-map, "heart-5");
+}
+.flaticon-cardiologist:before {
+    content: map-get($flaticon-map, "cardiologist");
+}
+.flaticon-health-care:before {
+    content: map-get($flaticon-map, "health-care");
+}
+.flaticon-heart-6:before {
+    content: map-get($flaticon-map, "heart-6");
+}
+.flaticon-defribillator:before {
+    content: map-get($flaticon-map, "defribillator");
+}
+.flaticon-heart-7:before {
+    content: map-get($flaticon-map, "heart-7");
+}
+.flaticon-emergency-call:before {
+    content: map-get($flaticon-map, "emergency-call");
+}
+.flaticon-awards:before {
+    content: map-get($flaticon-map, "awards");
+}
+.flaticon-ecg-reading:before {
+    content: map-get($flaticon-map, "ecg-reading");
+}
+.flaticon-patient:before {
+    content: map-get($flaticon-map, "patient");
+}
+.flaticon-patient-1:before {
+    content: map-get($flaticon-map, "patient-1");
+}
+.flaticon-medical-insurance:before {
+    content: map-get($flaticon-map, "medical-insurance");
+}
+.flaticon-search-1:before {
+    content: map-get($flaticon-map, "search-1");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-healthcare-2:before {
+    content: map-get($flaticon-map, "healthcare-2");
+}
+.flaticon-file:before {
+    content: map-get($flaticon-map, "file");
+}
+.flaticon-tick-mark:before {
+    content: map-get($flaticon-map, "tick-mark");
+}
+.flaticon-doctor:before {
+    content: map-get($flaticon-map, "doctor");
+}
+.flaticon-doctor-1:before {
+    content: map-get($flaticon-map, "doctor-1");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-share-1:before {
+    content: map-get($flaticon-map, "share-1");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-phone-call-1:before {
+    content: map-get($flaticon-map, "phone-call-1");
+}
+.flaticon-bubble-chat:before {
+    content: map-get($flaticon-map, "bubble-chat");
+}
